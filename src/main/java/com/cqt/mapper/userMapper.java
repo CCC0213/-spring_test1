@@ -6,7 +6,7 @@ import org.apache.ibatis.annotations.Mapper;
 @Mapper
 public interface userMapper {
 
-    @Insert("insert into test.user values(2,'zhangsan1')")
+    @Insert("insert into test.user values(3,'lisi')")
     void insertOne();
 
 }
