@@ -12,9 +12,13 @@ public class userService {
     @Autowired
     private userMapper userMapper1;
 
-    @Transactional
+    /*@Transactional
     public void test(){
         userMapper1.insertOne();
+    }*/
+    @Transactional
+    public void getUser(){
+        userMapper1.getUser();
     }
 
 }

@@ -14,8 +14,12 @@ public class userServiceControl {
 
 
     @GetMapping("/cqt")
-    public void test(){
+    public void getUser(){
+        userService1.getUser();
+    }
+
+    /*public void test(){
 
         userService1.test();
-    }
+    }*/
 }
