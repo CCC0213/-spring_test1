@@ -28,7 +28,6 @@ public class redisTest {
                 String c = rest.getString(3);
 
                 jedis.set(a,b);
-
             }
             System.out.print(jedis.get("3"));
         } catch (SQLException throwables) {
