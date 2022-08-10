@@ -11,7 +11,6 @@ public class Equals {
         System.out.println("p1.equals(p2)结果为："+p1.equals(p2));*/
         System.out.println(p1);
         System.out.println(p2);
-
     }
 
 }
